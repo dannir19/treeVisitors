@@ -1,8 +1,9 @@
-public class TreeNode extends Tree {
-    private Tree left;
-    private Tree right;
+public class Manager extends Employee {
+    private Employee left;
+    private Employee right;
 
-    public TreeNode(Tree left, Tree right) {
+    public Manager(int wedge, Employee left, Employee right) {
+        this.wedge = wedge;
         this.left = left;
         this.right = right;
     }

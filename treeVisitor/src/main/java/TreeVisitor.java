@@ -1,5 +1,5 @@
 public interface TreeVisitor {
 
-    public void visit(TreeLeaf treeLeaf);
-    public void visit(TreeNode treeNode);
+    public void visit(RegularEmployee treeLeaf);
+    public void visit(Manager treeNode);
 }
